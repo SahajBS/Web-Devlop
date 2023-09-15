@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8rem;
+}
+body{
+    display: inline;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    margin-top: 5rem;
+}
+.container>header{
+    margin: 5rem;
+    min-width:600px;
+    justify-content: center;
+    align-items: center;
+}
+.container>header>p{
+    color: blue;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 5rem;
+    letter-spacing: 0.2rem;
+}
+.container>header>h1{
+    font-size: 2rem;
+}
+.container>header>img{
+    width: 50%;
+    margin: 1rem;
+    object-fit: cover;
+    height: 200px;
+    border-radius: 10px;
+}
+section h2{
+    font-size: 3rem;
+}
+section{
+    
+    margin: 2rem;
+}
+section p{
+    font-weight: 5rem;
+    font-size: 1.5rem;
+    color: brown;
+    width: 50%;
+}
+section {
+    font-size: 2rem;
+    font-weight: 1.5rem;
+}
+.details{
+    background-color:paleturquoise;
+    border-radius: 0.8rem;
+    padding: 0.1rem;
+    margin: 0.5rem;
+}
+.details h3{
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+.details>ul{
+    font-size: 3rem;
+    margin-top: 2.5rem;
+    list-style-type: none;
+    display: flow-root;
+    grid-template-columns: 100fr 100fr;
+}
+li{
+    font-size: 1.5rem;
+}
+form.two>h2{
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+
+}
